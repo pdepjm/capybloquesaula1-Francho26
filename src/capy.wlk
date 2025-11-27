@@ -2,7 +2,7 @@ import wollok.game.*
 
 object capy {
   var property position = game.origin()
-  var impactoEnLaHuellaDeCarbonoTotal = 0 
+  var impactoEnLaHuellaDeCarbonoTotal = 1000 
   
   method recolectarBasura(basura){
     game.removeVisual(basura)
